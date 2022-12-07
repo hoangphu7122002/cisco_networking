@@ -1,0 +1,7 @@
+en
+int f0/0
+ip add 192.168.0.33 255.255.225.224
+exit
+ip dhcp pool A
+network 192.168.0.32 255.255.255.224
+default-router 192.168.0.33
