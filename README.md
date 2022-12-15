@@ -67,10 +67,10 @@ ip dhcp pool vlan4
 - exit
 ```
 
-#### 3. ROUTING-TRIP
+#### 3. ROUTING-RIP
 ```shell
 #router 0
-router trip
+router rip
 - version 2
 - network access 199.99.9.0
 - network access 192.168.0.0
@@ -81,7 +81,7 @@ router trip
 - no auto-summary
 
 #router 1
-router trip
+router rip
 - version 2
 - network access 199.99.9.0
 ```
